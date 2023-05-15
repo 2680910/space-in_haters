@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Images/bullet.png" type="Texture" id=1]
+[ext_resource path="res://Images/images.jpeg" type="Texture" id=1]
 [ext_resource path="res://Bullet/Bullet.gd" type="Script" id=2]
 [ext_resource path="res://Audio/bulletFire.wav" type="AudioStream" id=3]
 
@@ -11,6 +11,8 @@ extents = Vector2( 3.10687, 4.41854 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -2.58477, 20.0315 )
+scale = Vector2( 0.172892, 0.293512 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

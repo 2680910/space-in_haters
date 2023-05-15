@@ -3,5 +3,7 @@
 [ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=1]
 
 [resource]
-outline_color = Color( 1, 0, 0.992157, 1 )
+size = 30
+outline_size = 5
+outline_color = Color( 1, 0, 0.960784, 1 )
 font_data = ExtResource( 1 )

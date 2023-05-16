@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var speed = 500 
+var speed = 250 
 
 # Declare member variables here. Examples:
 # var a = 2

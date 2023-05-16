@@ -6,6 +6,7 @@ var enemyBulletInstanceCount = 0
 var automaticFiring = false 
 var saveFile = "user://save.dat"
 
+
 var scoringInformation = {
 	"currentScore": 0,
 	"currentPlayer": "User",

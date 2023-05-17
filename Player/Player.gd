@@ -14,13 +14,13 @@ func _ready():
 func _process(delta):
 	if GlobalVariables.automaticFiring: 
 		if Input.is_action_pressed("fire"):
-			if GlobalVariables.bulletInstanceCount < 30:
+			if GlobalVariables.bulletInstanceCount < 40:
 				var bulletInstance = bulletSource.instance()
 				bulletInstance.position = Vector2(position.x, position.y-20)
 				get_tree().get_root().add_child(bulletInstance)
 
 	elif Input.is_action_pressed("fire"):
-		if GlobalVariables.bulletInstanceCount < 3:
+		if GlobalVariables.bulletInstanceCount < 5:
 			var bulletInstance = bulletSource.instance()
 			bulletInstance.position = Vector2(position.x, position.y-20)
 			get_tree().get_root().add_child(bulletInstance)

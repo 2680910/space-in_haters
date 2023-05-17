@@ -14,10 +14,10 @@ extents = Vector2( 20.9622, 380.576 )
 extents = Vector2( 662.058, 10 )
 
 [node name="SpaceInvaders" type="Control"]
-margin_left = 12.8137
-margin_top = 25.9094
-margin_right = 1292.81
-margin_bottom = 745.91
+margin_left = 11.1435
+margin_top = 15.8883
+margin_right = 1291.14
+margin_bottom = 735.889
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -60,7 +60,7 @@ text = "0"
 position = Vector2( -1.53629, 369.479 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Border_Left"]
-position = Vector2( -43.6804, -28.7962 )
+position = Vector2( -38.6699, -82.242 )
 shape = SubResource( 1 )
 
 [node name="Border_Right" type="Area2D" parent="." groups=[
@@ -69,16 +69,16 @@ shape = SubResource( 1 )
 position = Vector2( 1287.42, 368.711 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Border_Right"]
-position = Vector2( -19.731, -20.4307 )
+position = Vector2( -19.731, -85.5677 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 642.615, 670.219 )
+position = Vector2( 635.934, 598.401 )
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=[
 "top",
 ]]
-position = Vector2( 646.934, -31.955 )
+position = Vector2( 640.253, -117.134 )
 
 [node name="TopCollider" type="CollisionShape2D" parent="Border_Top" groups=[
 "top",
@@ -94,11 +94,11 @@ position = Vector2( 646.934, 704.548 )
 [node name="TopCollider" type="CollisionShape2D" parent="Border_Bottom" groups=[
 "top",
 ]]
-position = Vector2( -22.1912, -2.06201 )
+position = Vector2( -28.8718, -37.1358 )
 shape = SubResource( 2 )
 
 [node name="Enemies" type="Node2D" parent="."]
-position = Vector2( 740.802, 18.5995 )
+position = Vector2( 720.76, -108.334 )
 script = ExtResource( 5 )
 
 [node name="Enemy" parent="Enemies" instance=ExtResource( 3 )]
@@ -123,7 +123,7 @@ position = Vector2( -209.652, 76.0975 )
 position = Vector2( -326.59, 79.17 )
 
 [node name="Enemy8" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( -438.457, 74.3564 )
+position = Vector2( -438.457, 72.6862 )
 
 [node name="Enemy9" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( 230.626, 175.444 )

@@ -43,7 +43,7 @@ margin_bottom = 80.0
 size_flags_horizontal = 3
 custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_colors/font_outline_modulate = Color( 0.976471, 0, 1, 1 )
+custom_colors/font_outline_modulate = Color( 1, 0.0313726, 0.0313726, 1 )
 custom_colors/font_color_shadow = Color( 0.847059, 0, 0.890196, 1 )
 text = "Spac InHaters Clone 2023"
 align = 1
@@ -104,8 +104,9 @@ margin_right = 1280.0
 margin_bottom = 720.0
 
 [node name="Label" type="Label" parent="Layout/Credits"]
-margin_right = 202.0
+margin_right = 250.0
 margin_bottom = 14.0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "Copyright Jacob Sharwood 2023."
 [connection signal="pressed" from="Layout/Main/Buttons/Start Game Button" to="Layout/Main/Buttons/Start Game Button" method="_on_Start_Game_Button_pressed"]
 [connection signal="pressed" from="Layout/Main/Buttons/Options" to="Layout/Main/Buttons/Options" method="_on_Options_pressed"]

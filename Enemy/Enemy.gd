@@ -6,7 +6,7 @@ var bullet = preload("res://Bullet-Enemy/Bullet-Enemy.tscn")
 	
 func _ready():
 	$Area2D.connect("area_entered", self, "_colliding")
-	
+
 
 func _colliding(area):
 	if area.is_in_group("right"):

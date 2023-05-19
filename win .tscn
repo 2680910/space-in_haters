@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://win .gd" type="Script" id=1]
+
+[node name="win " type="Node2D"]
+position = Vector2( 476.701, 164.616 )
+script = ExtResource( 1 )
+
+[node name="layout " type="VBoxContainer" parent="."]
+margin_left = -147.0
+margin_right = 40.0
+margin_bottom = 64.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="layout "]
+margin_right = 187.0
+margin_bottom = 20.0
+
+[node name="Label" type="Label" parent="layout /Button"]
+margin_left = 12.0872
+margin_top = -57.8737
+margin_right = 241.087
+margin_bottom = -24.8737
+text = "YOU WIN "
+__meta__ = {
+"_edit_use_anchors_": false
+}

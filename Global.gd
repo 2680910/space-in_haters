@@ -4,7 +4,7 @@ var bulletInstanceCount = 0 # Keeps track of how many bullet instances are curre
 var enemyBulletCount = 0
 var enemyBulletInstanceCount = 0
 var automaticFiring = false 
-var saveFile = "user://save.dat"
+var saveFile = "user://save.data"
 
 
 var scoringInformation = {

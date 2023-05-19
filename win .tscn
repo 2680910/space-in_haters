@@ -17,6 +17,7 @@ __meta__ = {
 [node name="Button" type="Button" parent="layout "]
 margin_right = 187.0
 margin_bottom = 20.0
+text = "main menu "
 
 [node name="Label" type="Label" parent="layout /Button"]
 margin_left = 12.0872

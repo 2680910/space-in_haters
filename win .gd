@@ -30,3 +30,4 @@ func saveData():
 		print("!!Data Not Saved!!")
 
 
+	("res://WinScene.tscn")

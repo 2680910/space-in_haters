@@ -10,7 +10,7 @@
 [sub_resource type="DynamicFont" id=1]
 size = 55
 outline_size = 10
-outline_color = Color( 0.909804, 0.909804, 0.909804, 1 )
+outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 2 )
 
 [node name="MenuMenu" type="Control"]
@@ -45,7 +45,7 @@ custom_fonts/font = SubResource( 1 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 custom_colors/font_outline_modulate = Color( 1, 0.0313726, 0.0313726, 1 )
 custom_colors/font_color_shadow = Color( 0.847059, 0, 0.890196, 1 )
-text = "Spac InHaters Clone 2023"
+text = "spac  InHaters 2023"
 align = 1
 
 [node name="Main" type="HBoxContainer" parent="Layout"]
@@ -109,6 +109,6 @@ margin_bottom = 14.0
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 text = "Copyright Jacob Sharwood 2023."
 [connection signal="pressed" from="Layout/Main/Buttons/Start Game Button" to="Layout/Main/Buttons/Start Game Button" method="_on_Start_Game_Button_pressed"]
-[connection signal="pressed" from="Layout/Main/Buttons/Options" to="Layout/Main/Buttons/Start Game Button" method="_on_Options_pressed"]
 [connection signal="pressed" from="Layout/Main/Buttons/Options" to="Layout/Main/Buttons/Options" method="_on_Options_pressed"]
+[connection signal="pressed" from="Layout/Main/Buttons/Options" to="Layout/Main/Buttons/Start Game Button" method="_on_Options_pressed"]
 [connection signal="pressed" from="Layout/Main/Buttons/Quit" to="Layout/Main/Buttons/Quit" method="_on_Quit_pressed"]

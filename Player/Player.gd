@@ -11,6 +11,27 @@ func _ready():
 
 
 
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
+# warning-ignore:unused_argument
 func _process(delta):
 	if GlobalVariables.automaticFiring: 
 		if Input.is_action_pressed("fire"):
@@ -38,10 +59,9 @@ func _physics_process(delta):
 		move_and_collide(Vector2(0, movement_speed * delta))
 	if Input.is_action_pressed("ui_up"):
 		get_tree().change_scene("res://WinScene.tscn")
-var scoringInformation = {
-	"currentScore": 0,
-	"currentPlayer": "User",
-	"highScore": 0,
-	"highScorePlayersName" : "Winner"}
 
 
+func reduceHealth():
+			health -= 1
+		if health == 0:
+			get_tree().change_scene("res://Menu/Menu.tscn")

@@ -20,6 +20,8 @@ func _colliding(area):
 
 
 func _process(delta):
+	if GlobalVariables.Player == null:
+		queue_free()
 	var rng = RandomNumberGenerator.new()
 	rng.randomize()
 	var my_random_number = rng.randf_range(2.0, 30.0)

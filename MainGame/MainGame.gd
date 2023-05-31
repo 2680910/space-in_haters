@@ -14,10 +14,13 @@ func _ready():
 		currentTimer = currentTimer -1
 		print(currentTimer)
 	print("game over")
+# warning-ignore:return_value_discarded
 	get_tree().change_scene("res://LoseScene.tscn")
 
+# warning-ignore:unused_argument
 func _process(delta):
 	$HUD/CurrentScore.text = str(GlobalVariables.scoringInformation["currentScore"])
 	if get_tree().get_nodes_in_group("enemy").size() == 0:
+# warning-ignore:return_value_discarded
 		get_tree().change_scene("res://WinScene.tscn")
 

@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var movement_speed = 500
 var bulletSource = preload("res://Bullet/Bullet.tscn")
-
+export (int) var health = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -62,6 +62,6 @@ func _physics_process(delta):
 
 
 func reduceHealth():
-			health -= 1
-		if health == 0:
-			get_tree().change_scene("res://Menu/Menu.tscn")
+	health -= 1
+	if health == 0:
+				get_tree().change_scene("res://Menu/Menu.tscn")

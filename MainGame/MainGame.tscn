@@ -14,10 +14,10 @@ extents = Vector2( 20.9622, 380.576 )
 extents = Vector2( 662.058, 10 )
 
 [node name="SpaceInvaders" type="Control"]
-margin_left = 11.1435
-margin_top = 15.8883
-margin_right = 1291.14
-margin_bottom = 735.889
+margin_left = 36.1961
+margin_top = 119.439
+margin_right = 1316.19
+margin_bottom = 839.44
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false

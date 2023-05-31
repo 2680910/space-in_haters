@@ -5,7 +5,7 @@ var enemyBulletCount = 0
 var enemyBulletInstanceCount = 0
 var automaticFiring = false 
 var saveFile = "user://save.data"
-export (int) var health = 1
+
 
 var scoringInformation = {
 	"currentScore": 0,
@@ -14,5 +14,5 @@ var scoringInformation = {
 	"highScorePlayersName" : "Winner"
 }
 
-
+var player
 
